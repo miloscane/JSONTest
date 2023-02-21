@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'xapitest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD08DE209B1B433BAEE5B922C832C3C0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F3D7206DA6043C6AA5414360B974E2C }}
           package: .
