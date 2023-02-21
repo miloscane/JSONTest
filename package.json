@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/miloscane/JSONTest/issues"
   },
-  "homepage": "https://github.com/miloscane/JSONTest#readme"
+  "homepage": "https://github.com/miloscane/JSONTest#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
