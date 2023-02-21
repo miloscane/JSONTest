@@ -10,4 +10,5 @@ server.get('/',function(req,res){
 	var obj	=	{id: new Date().getTime(), Content: "Bravo Anton", SecondContent: "Mobatec Rules ;)"};
 	res.writeHead(200,{"Content-Type":"application/json"});
 	res.write(JSON.stringify(obj));	
+	res.end()
 });
